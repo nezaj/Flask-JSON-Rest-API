@@ -1,0 +1,20 @@
+{
+    "data": {
+        "unit_id": "contactmusic.com",
+        "unit_type": "button",
+        "action_domain_mappings":{
+          "iOSGreaterThan841": {
+              "action": "ListenAction",
+              "domain": "apple.com"
+          },
+          "iOS": {
+              "action": "TicketsAction",
+              "domain": "seatgeek.com"
+          },
+          "android": {
+              "action": "TicketsAction",
+              "domain": "seatgeek.com"
+          }
+        }
+    }
+}
