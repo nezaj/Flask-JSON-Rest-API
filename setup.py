@@ -19,7 +19,7 @@ dependencies = [
 ]
 
 setup(
-    name="flask-json-api"
+    name="flask-json-api",
     version="0.1",
     packages=find_packages(),
     zip_safe=False,

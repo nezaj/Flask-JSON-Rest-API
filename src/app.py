@@ -1,6 +1,6 @@
 from flask import Flask, jsonify
 
-from . import frontend, service, units
+from . import service, units
 
 def create_app(config_obj):
     """ Factory for creating app """
